@@ -28,6 +28,10 @@ public class Cliente{
     
     public Integer getNit(){
         return this.nit;
+    }
+    
+    public string toString(){
+        return getNombreCliente() + " "+ getNit();
     }        
 
 }
