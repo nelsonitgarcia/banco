@@ -31,7 +31,7 @@ public class Cliente{
     }
     
     public string toString(){
-        return getNombreCliente() + " "+ getNit();
+        return getNombreCliente() + " de donde "+ getNit();
     }
     
     puclic compare(Cliente o){
