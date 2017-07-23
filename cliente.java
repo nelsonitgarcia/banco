@@ -32,6 +32,11 @@ public class Cliente{
     
     public string toString(){
         return getNombreCliente() + " "+ getNit();
+    }
+    
+    puclic compare(Cliente o){
+    if (o.getIdCliente <> this.getIdCliente){
+    }
     }        
 
 }
